@@ -1,0 +1,78 @@
+
+body{
+
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: blueviolet;
+}
+.header_content{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    width: 80%;
+    margin: auto;
+    
+    
+}
+.header-content{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 60%;
+}   
+
+.header_logo{
+    color: white;
+    font-size: 2.5rem;
+    text-decoration: none;
+    font-weight: 500px;
+    margin-right: 10%;
+}
+.header_nav li {
+    display: inline;
+  
+}
+.header_nav ul li a {
+    display: inline;
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+}
+.carousel{
+    background: url(../img/b3.jpg) no-repeat center center;
+    height: 35rem;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel_content h1{
+    margin: 0;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+}
+.carousel_content {
+    text-align: center;
+}
+.carousel_content p{
+    font-size: 1rem;
+    color: white;
+    font-weight: 500;
+    margin: 0;
+}
+.btn-pink{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #ff0c82;
+    border: 1px solid white;
+    font-size: 1rem;
+    border-radius: 3px;
+}
+   
