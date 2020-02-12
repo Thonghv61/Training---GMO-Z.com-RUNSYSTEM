@@ -75,4 +75,9 @@ body{
     font-size: 1rem;
     border-radius: 3px;
 }
+.intro{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
    
