@@ -155,3 +155,10 @@ body{
 .box a{
     color: #797782;
 }
+.block-content::after{
+    content: '.';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
